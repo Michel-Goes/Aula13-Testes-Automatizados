@@ -1,4 +1,4 @@
-const library_module = require('./some')
+import library_module from './some'
 
 describe("Testes de soma", () => {
     test("Deve verificar o resultado correto de uma soma", () => {
